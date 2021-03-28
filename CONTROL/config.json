@@ -1,0 +1,46 @@
+{
+  "general":{
+    "package":"openfire-docker",
+    "name":"Openfire",
+    "version":"1.0.0.r02",
+    "depends":[
+      "docker-ce(>=19.03.8.r5)"
+    ],
+    "developer":"EndMove",
+    "maintainer":"EndMove",
+    "email":"contact@endmove.eu",
+    "website":"https://github.com/EndMove/openfire-docker",
+    "architecture":"x86-64",
+    "firmware":"3.4.0"
+  },
+  "adm-desktop":{
+    "app":{
+      "port":9091,
+      "protocol":"https",
+      "type":"custom",
+      "url":"/" 
+    },
+    "privilege":{
+      "accessible":"administrators", 
+      "customizable":true 
+    }
+  },
+  "register":{
+  "share-folder":[
+    {
+      "name":"Docker",
+      "description":"Data and files directory for Docker Apps"
+    }           
+  ],
+  "boot-priority":{
+    "start-order":65,
+    "stop-order":40
+  },
+    "port":[
+      "T5222",
+      "T7777",
+      "T9090",
+      "T9091"
+    ]
+  }
+}

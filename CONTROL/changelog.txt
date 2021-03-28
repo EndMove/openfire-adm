@@ -1,0 +1,6 @@
+V: 1.0.0.r02 - D: 2021/03/26
+- [FIX]: wrong directory name in the Docker folder.
+
+
+V: 1.0.0.r01 - D: 2021/03/26
+- Openfire 4.6.2 first release.

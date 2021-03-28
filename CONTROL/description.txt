@@ -1,0 +1,7 @@
+Openfire is an open source Jabber/XMPP server developed by Ignite Realtime community.
+Openfire version: 4.6.2.
+
+Access the panel without SSL: "http://[host]:9090" with SSL: "https://[host]:9091".
+The ports available for this version of the application in ADM are: 5222-tcp, 7777-tcp, 9090-tcp, 9091-tcp But all openfire ports are open through the docker container.
+
+The database and configuration files are available in: "/volume1/Docker/Openfire".
