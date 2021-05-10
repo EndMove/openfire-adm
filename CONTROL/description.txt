@@ -1,7 +1,31 @@
 Openfire is an open source Jabber/XMPP server developed by Ignite Realtime community.
-Openfire version: 4.6.2.
+OpenFire current version: 4.6.3.
 
-Access the panel without SSL: "http://[host]:9090" with SSL: "https://[host]:9091".
-The ports available for this version of the application in ADM are: 5222-tcp, 7777-tcp, 9090-tcp, 9091-tcp But all openfire ports are open through the docker container.
+[ADMIN PANEL]
+You can access the administration panel through : "http://[domain-name / host]:9090" (without SSL) or through "https://[domain-name / host]:9091" (with SSL <!> after configuring your SSL certificate <!>).
 
+[SETUP]
+Follow the configuration setup carefully, answer the questions well to satisfy the installation and benefit from its full potential. By default (username: admin ; password: admin).
+
+[DATA BASE]
+We recommend you to use the embedded-database, but Openfire can be installed using an external database, you can also use the MariaDB application or another database server present in the APP CENTRAL.
+
+[PORTs]
+All Openfire ports are exposed on your server, you can open new ones at any time from your server's network settings in ADM.
+The default ports are: 5222-tcp, 7777-tcp, 9090-tcp, 9091-tcp.
+
+[CONFIG FILE]
 The database and configuration files are available in: "/volume1/Docker/Openfire".
+But we recommend you to use the interface to update the data.
+
+[SSL CERTIFICATE]
+The use of the certificates requires a valid SSL certificate and a domain name.
+Automatic installation: Drag and drop your ssl.pem certificate (containing certificate and key) in "Openfire/conf/security/hotdeploy", it will be automatically installed in the certificate manager of Openfire.
+Manual installation: ["panel-admin" >> "TLS/SSL Certificates" >> "Manage Store Content"] import your certificate.
+More information here: (https://discourse.igniterealtime.org/t/import-ssl-certificate-openfire-4-3-0/83878).
+
+-----------------------------------------------------------
+
+But why use Openfire? 
+
+Openfire is fast and powerful and allows you to do many things. For friends Openfire can become the pacerel of your conversations with MOVIM (https://movim.eu/), for developers it can allow you to develop several projects in a secure way SAROS (https://www.saros-project.org/) and much more...

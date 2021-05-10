@@ -1,6 +1,6 @@
 # openfire-adm
 
-__Openfire version__: _`4.6.2`_
+__Openfire version__: _`4.6.3`_
 
 ![GitHub license](https://img.shields.io/badge/license-GPL--3.0-%23fe7d37) ![GitHub last commit](https://img.shields.io/github/last-commit/EndMove/openfire-adm)
 
