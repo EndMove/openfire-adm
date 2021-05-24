@@ -1,14 +1,2 @@
-V: 1.0.1.r02 - D: 2021/05/10
-- [REMOVE]: The automatic addition of the SLL certificate from ADM has been removed due to incompatibility with some installations.
-- [ADD]: The Openfire Certificaemanager plugin is now preinstalled.
-
-V: 1.0.1.r01 - D: 2021/04/01
-- [ADD]: Works with the default ADM SSL certificate.
-
-
-V: 1.0.0.r02 - D: 2021/03/26
-- [FIX]: Wrong directory name in the Docker folder.
-
-
-V: 1.0.0.r01 - D: 2021/03/26
-- Openfire 4.6.2 first release.
+Version: 1.0.1.r02
+- Openfire 4.6.3 first release.

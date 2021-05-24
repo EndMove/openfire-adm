@@ -2,7 +2,7 @@ Openfire is an open source Jabber/XMPP server developed by Ignite Realtime commu
 OpenFire current version: 4.6.3.
 
 [ADMIN PANEL]
-You can access the administration panel through : "http://[domain-name / host]:9090" (without SSL) or through "https://[domain-name / host]:9091" (with SSL <!> after configuring your SSL certificate <!>).
+You can access the administration panel through : "http://[domain-name / host]:9090" (without SSL) or through "https://[domain-name / host]:9091" (with SSL after configuring your SSL certificate ).
 
 [SETUP]
 Follow the configuration setup carefully, answer the questions well to satisfy the installation and benefit from its full potential. By default (username: admin ; password: admin).
@@ -26,6 +26,6 @@ More information here: (https://discourse.igniterealtime.org/t/import-ssl-certif
 
 -----------------------------------------------------------
 
-But why use Openfire? 
+But why use Openfire?
 
 Openfire is fast and powerful and allows you to do many things. For friends Openfire can become the pacerel of your conversations with MOVIM (https://movim.eu/), for developers it can allow you to develop several projects in a secure way SAROS (https://www.saros-project.org/) and much more...
