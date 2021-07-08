@@ -1,2 +1,5 @@
+Version: 1.0.2.r01
+- Update to Openfire 4.6.4.
+
 Version: 1.0.1.r02
 - Openfire 4.6.3 first release.

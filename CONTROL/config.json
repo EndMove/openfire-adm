@@ -2,7 +2,7 @@
   "general":{
     "package":"openfire-docker",
     "name":"Openfire",
-    "version":"1.0.1.r02",
+    "version":"1.0.2.r01",
     "depends":[
       "docker-ce(>=19.03.8.r5)"
     ],

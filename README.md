@@ -1,6 +1,6 @@
 # openfire-adm
 
-__Openfire version__: _`4.6.3`_
+__Openfire version__: _`4.6.4`_
 
 ![GitHub license](https://img.shields.io/badge/license-GPL--3.0-%23fe7d37) ![GitHub last commit](https://img.shields.io/github/last-commit/EndMove/openfire-adm)
 
@@ -18,7 +18,7 @@ This application uses the docker package available [here](https://github.com/End
 
 - application docker-ce (>=19.03.8.r5) ;
 - server with an x86-64 architecture ;
-- ADM (>=3.4.0) ;
+- ADM (=3.4.0) ;
 
 ## Installation
 

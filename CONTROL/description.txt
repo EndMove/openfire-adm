@@ -1,8 +1,9 @@
 Openfire is an open source Jabber/XMPP server developed by Ignite Realtime community.
-OpenFire current version: 4.6.3.
+OpenFire current version: 4.6.4.
 
 [ADMIN PANEL]
-You can access the administration panel through : "http://[domain-name / host]:9090" (without SSL) or through "https://[domain-name / host]:9091" (with SSL after configuring your SSL certificate ).
+You can access the administration panel through : "http://[domain-name / host]:9090" (without SSL) or through "https://[domain-name / host]:9091" (with SSL after configuring your SSL certificate).
+By default ADM uses port "9090" to access the panel.
 
 [SETUP]
 Follow the configuration setup carefully, answer the questions well to satisfy the installation and benefit from its full potential. By default (username: admin ; password: admin).
@@ -20,7 +21,7 @@ But we recommend you to use the interface to update the data.
 
 [SSL CERTIFICATE]
 The use of the certificates requires a valid SSL certificate and a domain name.
-Automatic installation: Drag and drop your ssl.pem certificate (containing certificate and key) in "Openfire/conf/security/hotdeploy", it will be automatically installed in the certificate manager of Openfire.
+Automatic installation: Drag and drop your crt.pem and key.pem file in "Openfire/conf/security/hotdeploy", it will be automatically installed in the Openfire certificate manager (Rename your key and certificate file if necessary).
 Manual installation: ["panel-admin" >> "TLS/SSL Certificates" >> "Manage Store Content"] import your certificate.
 More information here: (https://discourse.igniterealtime.org/t/import-ssl-certificate-openfire-4-3-0/83878).
 
@@ -28,4 +29,4 @@ More information here: (https://discourse.igniterealtime.org/t/import-ssl-certif
 
 But why use Openfire?
 
-Openfire is fast and powerful and allows you to do many things. For friends Openfire can become the pacerel of your conversations with MOVIM (https://movim.eu/), for developers it can allow you to develop several projects in a secure way SAROS (https://www.saros-project.org/) and much more...
+Openfire is fast and powerful and allows you to do many things. For friends Openfire can become the pacerel of your conversations with MOVIM (https://movim.eu/) or BLABBER.IM (https://blabber.im/), for developers it can allow you to develop several projects in a secure way SAROS (https://www.saros-project.org/) and much more...
